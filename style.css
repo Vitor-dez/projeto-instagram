@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-celular{
+    width: 550px;
+}
+
+.box-image{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+
+.img-slider{
+    width: 230px;
+   position: absolute;
+   margin-left: 214px;
+transition: 1.5s;
+}
+
+.container-itens{
+    width: 350px;
+   
+
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffff;
+    padding: 50px;
+    text-align: center;
+    
+}
+.logo{
+    padding: 30px;
+}
+input{
+    height: 36px;
+    margin: 3px;
+    outline: none;
+    padding: 10px;
+    border:solid 1px#bdb6b6 ;
+    border-radius: 5px;
+}
+
+button{
+height: 32px;
+border-radius: 12px;
+border: none;
+margin: 10px;
+color: #fafafa;
+background: #4ebbfa;
+cursor: pointer;
+}
+
+.informations{
+  width: 350px;
+  height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid  #dbdbdb;
+
+}
+
+.infor-facbook{
+    color: #041991;
+    cursor: pointer;
+}
+
+.inform{
+    margin: 10px;
+    color: #042c44;
+    cursor: pointer;
+}
+
+.infor-login {
+color: #35aef5;
+margin: 5px;
+cursor: pointer;
+}
+
+
+.infor-app{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.advertsing{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.advertsing img{
+width: 150px;
+}
+
+@media screen and (max-width: 1016px){
+    
+
+    .container-form{
+        width: 80%;
+    }
+
+    .informations{
+        width: 80%;
+    }
+
+    .advertsing{
+        width: 80%;
+    }
+
+.infor-app{
+   margin-right: 65px;
+}
+    .img-celular{
+        width: 480px;
+        margin-left: 20px;
+    }
+    .img-slider{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-itens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-celular{
+        width: 300px;
+        margin-right: 33px;
+        padding: 10px;
+    }
+    
+    .img-slider{
+        width: 118px;
+        margin-right: 115px;
+    }
+
+
+    
+.infor-app{
+    margin-right: 0px;
+ }
+}
+    
